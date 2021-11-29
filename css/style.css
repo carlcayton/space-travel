@@ -260,17 +260,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  width: 50%;
+  height: 100%;
   vertical-align: middle;
-  position: relative;
-}
-
-.grey-cover .dest-shot-and-info-container .destination-shots-container .destination-shots {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .grey-cover .destination-brief-info {

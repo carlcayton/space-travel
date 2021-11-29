@@ -262,7 +262,9 @@ body {
           flex-direction: row;
   width: 50%;
   height: 100%;
-  vertical-align: middle;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .grey-cover .destination-brief-info {

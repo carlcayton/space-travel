@@ -5,8 +5,10 @@ mixin containerWithBg(i)
          div(class="page-number-line-container")
             p(class="page-number") 000#{i}
             div(class="vertical-line")
-         if(i==1)
+         if (i==7)
             - console.log(i)
+               div(id="last-container") See Your There!
+         if(i==1)
             div(id="first-container")
                div(id="astronaut-image-container")
                   div(id="border-on-image")
@@ -22,3 +24,4 @@ mixin containerWithBg(i)
                               div(class=`destination-shot shot${j}` )
                   include ./_destinationInfoContainer
                   +destinationInfo(i)
+         

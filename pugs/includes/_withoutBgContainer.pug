@@ -1,0 +1,12 @@
+
+mixin containerWithoutBg(i)
+   div(class="grey-cover" id=`grey-cover${i}`)
+      div(class="page-number-line-container")
+         p(class="page-number") 000#{i}
+         div(class="vertical-line")   
+      div(class="dest-shot-and-info-container")
+         div(class="destination-shots-container" id=`dest-shot-${i}`)
+            each j in [1,2,3,4]
+               div(class=`destination-shot shot${j}`)
+         include ./_destinationInfoContainer
+         +destinationInfo(i)

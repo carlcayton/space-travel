@@ -1,0 +1,27 @@
+// #page1-background{
+//     background-image: url(../assets/images/backgrounds/p1_background.jpg);
+// }
+
+#main-container{
+   display:block;
+     z-index: -1;
+}
+
+#container1-background{
+    background-image: url(../assets/images/backgrounds/p1_background.jpg);
+}
+#container3-background{
+    background-image: url(../assets/images/backgrounds/p2_background.jpg);
+}
+#container7-background{
+    background-image: url(../assets/images/backgrounds/p3_background.jpg);
+}
+
+.background-img{
+   height: 80vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   // margin-bottom: 70vh;
+  box-shadow: 0 0 8px 8px white inset;
+}

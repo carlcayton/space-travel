@@ -1,0 +1,82 @@
+@import "config";
+@import "nav";
+@import "background";
+@import "stars";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 120%);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.grey-cover {
+  background-color: rgba(40, 38, 38, 0.7);
+  width: 100vw;
+  height: 80vh;
+  z-index: 0;
+  display: flex;
+  flex-direction: row;
+
+  .page-number-line-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10.5%;
+    margin-left: 3%;
+    justify-content: center;
+
+    .page-number {
+      font-family: "JetBrains Mono";
+      margin-bottom: 600%;
+      margin-left: 340%;
+
+      color: #fff;
+      font-size: 20px;
+      writing-mode: vertical-rl;
+    }
+    .vertical-line {
+      border-left: 6px solid #fff;
+      height: 82%;
+      margin-top: 1%;
+      margin-left: 3.8%;
+    }
+  }
+  .dest-shot-and-info-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    position: relative;
+
+    .destination-shots-container {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      // width: 100%;
+      // height: 100%;
+      vertical-align: middle;
+      position: relative;
+
+      .destination-shots {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+
+  .destination-brief-info {
+    flex: 1;
+  }
+}

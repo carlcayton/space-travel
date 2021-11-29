@@ -1,0 +1,43 @@
+nav {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding: 20px 10%;
+   position: fixed;
+   z-index: 2;
+
+   .logo {
+      color: white;
+      float: left;
+      font-size: 30px;
+
+   }
+
+   .toggle-button {
+      padding-top: 10px;
+      display: flex;
+      top: 1rem;
+      right: 1rem;
+      align-items:right;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 31px;
+      float:right;
+
+      .bar {
+         height: 3px;
+         width: 120%;
+         background-color: white;
+         border-radius: 10px;
+ 
+         &.bottom{
+             width: 70%;
+             margin-left: 50%; 
+             margin-right: 0;
+         }
+      }
+       
+   }
+   
+}

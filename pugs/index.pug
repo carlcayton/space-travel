@@ -1,0 +1,70 @@
+doctype html
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible", content="IE=edge")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      link(rel="stylesheet" href="./node_modules/jetbrains-mono/css/jetbrains-mono.css")
+      link(rel="stylesheet", href='../css/style.css')
+      title Voyage
+      script(src="https://code.jquery.com/jquery-3.6.0.js")
+      script(src="../src/index.js")
+   body 
+      nav
+         h3.logo  VOYAGE
+         //- img(src='')
+         a(href="#" class="toggle-button") 
+            span(class="bar")
+            span(class="bar")
+            span(class="bar bottom")
+      div(class="wrapper")
+         div(id="stars")
+         div(id="stars2")
+         div(id="stars3")
+  
+      div(id="main-container")
+         each i in [1,2,3,4,5,6,7]
+            if (i==1 || i==3 || i==7)
+               div(id=`container${i}-background` class="background-img")
+                  div(class="grey-cover" id=`grey-cover${i}`)
+                     div(class="page-number-line-container")
+                        p(class="page-number") 000#{i}
+                        div(class="vertical-line")
+                     div(class="dest-shot-and-info-container")
+                        div(class="destination-shots-container" id=`dest-shot-${i}`)
+                              if (i==3)
+                                 each j in [1,2,3,4]
+                                    div(class=`destination-shot shot${j}` )
+                           
+                        div(class="destination-brief-info")
+                           p(class="destination-intro")
+                           p(class="destination-name")
+                           p(class="destination-definition")
+                           a(class="read-more")
+
+            if (i==2||i==4||i==5||i==6)
+               div(class="grey-cover" id=`grey-cover${i}`)
+                  div(class="page-number-line-container")
+                     p(class="page-number") 000#{i}
+                     div(class="vertical-line")   
+                  div(class="dest-shot-and-info-container")
+                     div(class="destination-shots-container" id=`dest-shot-${i}`)
+                        each j in [1,2,3,4]
+                           div(class=`destination-shot shot${j}`)
+                     div(class="destination-brief-info")
+                        p(class="destination-intro")
+                        p(class="destination-name")
+                        p(class="destination-definition")
+                        a(class="read-more")
+
+      
+
+
+      
+         
+         
+            
+         
+
+      
+           

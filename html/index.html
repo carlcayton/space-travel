@@ -1,160 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./node_modules/jetbrains-mono/css/jetbrains-mono.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>Voyage</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="../src/index.js"></script>
-</head>
-
-<body>
-  <nav>
-    <h3 class="logo"> VOYAGE</h3><a class="toggle-button" href="#"> <span class="bar"></span><span
-        class="bar"></span><span class="bar bottom"></span></a>
-  </nav>
-  <div class="wrapper">
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-  </div>
-  <div id="main-container">
-    <div class="background-img" id="container1-background">
-      <div class="grey-cover" id="grey-cover1">
-        <div class="page-number-line-container">
-          <p class="page-number">0001</p>
-          <div class="vertical-line"></div>
-        </div>
-        <div class="dest-shot-and-info-container">
-          <div class="destination-shots-container" id="dest-shot-1">
-          </div>
-          <div class="destination-brief-info">
-            <p class="destination-intro"></p>
-            <p class="destination-name"></p>
-            <p class="destination-definition"></p><a class="read-more"></a>
-          </div>
-        </div>
-      </div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/jetbrains-mono/css/jetbrains-mono.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Voyage</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../src/index.js"></script>
+  </head>
+  <body> 
+    <nav>
+      <h3 class="logo"> VOYAGE</h3><a class="toggle-button" href="#"> <span class="bar"></span><span class="bar"></span><span class="bar bottom"></span></a>
+    </nav>
+    <div class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     </div>
-    <div class="grey-cover" id="grey-cover2">
-      <div class="page-number-line-container">
-        <p class="page-number">0002</p>
-        <div class="vertical-line"> </div>
-      </div>
-      <div class="dest-shot-and-info-container">
-        <div class="destination-shots-container" id="dest-shot-2">
-          <div class="destination-shot shot1"></div>
-          <div class="destination-shot shot2"></div>
-          <div class="destination-shot shot3"></div>
-          <div class="destination-shot shot4"></div>
-        </div>
-        <div class="destination-brief-info">
-          <p class="destination-intro"></p>
-          <p class="destination-name"></p>
-          <p class="destination-definition"></p><a class="read-more"></a>
-        </div>
-      </div>
+    <div id="main-container">
+            <div class="background-img" id="container1-background">
+              <div class="grey-cover" id="grey-cover1">
+                <div class="page-number-line-container">
+                  <p class="page-number">0001</p>
+                  <div class="vertical-line"></div>
+                </div>
+                <div id="first-container">
+                  <div id="astronaut-image-container">
+                    <div id="border-on-image"></div>
+                  </div>
+                  <div id="first-container-info">
+                    <div id="first-container-info-title">VOYAGING ON THE UNKOWN</div>
+                    <div id="first-container-info-description">Hello there my fellow traveller! The thousand year peace has brought great progress in Human civilization. We are now able to reach distant planets in economically allowing any child with hopes of reaching for the stars to pursue their  dreams. Today I will take you to 'destinations' that your hungry eyes have to see.  </div>
+                    <div id="first-container-info-me">-2nd Cpt. Arian Cayton #0033 Unit 18D</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grey-cover" id="grey-cover2">
+              <div class="page-number-line-container">
+                <p class="page-number">0002</p>
+                <div class="vertical-line">  </div>
+              </div>
+              <div class="dest-shot-and-info-container">
+                <div class="destination-shots-container" id="dest-shot-2">
+                  <div class="destination-shot shot1"></div>
+                  <div class="destination-shot shot2"></div>
+                  <div class="destination-shot shot3"></div>
+                  <div class="destination-shot shot4"></div>
+                </div>
+              </div>
+            </div>
+            <div class="background-img" id="container3-background">
+              <div class="grey-cover" id="grey-cover3">
+                <div class="page-number-line-container">
+                  <p class="page-number">0003</p>
+                  <div class="vertical-line"></div>
+                </div>
+                <div class="dest-shot-and-info-container">
+                  <div class="destination-shots-container" id="dest-shot-3">
+                    <div class="destination-shot shot1"></div>
+                    <div class="destination-shot shot2"></div>
+                    <div class="destination-shot shot3"></div>
+                    <div class="destination-shot shot4"></div>
+                  </div>
+                              <div class="destination-brief-info" id="destination-info-0">
+                                <p class="destination-intro"></p>
+                                <p class="destination-name"></p>
+                                <p class="destination-distance"></p>
+                                <p class="destination-definition"></p><a class="read-more" href="">Read More →</a>
+                              </div>
+                </div>
+              </div>
+            </div>
+            <div class="grey-cover" id="grey-cover4">
+              <div class="page-number-line-container">
+                <p class="page-number">0004</p>
+                <div class="vertical-line">  </div>
+              </div>
+              <div class="dest-shot-and-info-container">
+                <div class="destination-shots-container" id="dest-shot-4">
+                  <div class="destination-shot shot1"></div>
+                  <div class="destination-shot shot2"></div>
+                  <div class="destination-shot shot3"></div>
+                  <div class="destination-shot shot4"></div>
+                </div>
+                          <div class="destination-brief-info" id="destination-info-1">
+                            <p class="destination-intro"></p>
+                            <p class="destination-name"></p>
+                            <p class="destination-distance"></p>
+                            <p class="destination-definition"></p><a class="read-more" href="">Read More →</a>
+                          </div>
+              </div>
+            </div>
+            <div class="grey-cover" id="grey-cover5">
+              <div class="page-number-line-container">
+                <p class="page-number">0005</p>
+                <div class="vertical-line">  </div>
+              </div>
+              <div class="dest-shot-and-info-container">
+                <div class="destination-shots-container" id="dest-shot-5">
+                  <div class="destination-shot shot1"></div>
+                  <div class="destination-shot shot2"></div>
+                  <div class="destination-shot shot3"></div>
+                  <div class="destination-shot shot4"></div>
+                </div>
+                          <div class="destination-brief-info" id="destination-info-2">
+                            <p class="destination-intro"></p>
+                            <p class="destination-name"></p>
+                            <p class="destination-distance"></p>
+                            <p class="destination-definition"></p><a class="read-more" href="">Read More →</a>
+                          </div>
+              </div>
+            </div>
+            <div class="grey-cover" id="grey-cover6">
+              <div class="page-number-line-container">
+                <p class="page-number">0006</p>
+                <div class="vertical-line">  </div>
+              </div>
+              <div class="dest-shot-and-info-container">
+                <div class="destination-shots-container" id="dest-shot-6">
+                  <div class="destination-shot shot1"></div>
+                  <div class="destination-shot shot2"></div>
+                  <div class="destination-shot shot3"></div>
+                  <div class="destination-shot shot4"></div>
+                </div>
+                          <div class="destination-brief-info" id="destination-info-3">
+                            <p class="destination-intro"></p>
+                            <p class="destination-name"></p>
+                            <p class="destination-distance"></p>
+                            <p class="destination-definition"></p><a class="read-more" href="">Read More →</a>
+                          </div>
+              </div>
+            </div>
+            <div class="background-img" id="container7-background">
+              <div class="grey-cover" id="grey-cover7">
+                <div class="page-number-line-container">
+                  <p class="page-number">0007</p>
+                  <div class="vertical-line"></div>
+                </div>
+                <div id="last-container">See Your There!</div>
+              </div>
+            </div>
     </div>
-    <div class="background-img" id="container3-background">
-      <div class="grey-cover" id="grey-cover3">
-        <div class="page-number-line-container">
-          <p class="page-number">0003</p>
-          <div class="vertical-line"></div>
-        </div>
-        <div class="dest-shot-and-info-container">
-          <div class="destination-shots-container" id="dest-shot-3">
-            <div class="destination-shot shot1"></div>
-            <div class="destination-shot shot2"></div>
-            <div class="destination-shot shot3"></div>
-            <div class="destination-shot shot4"></div>
-          </div>
-          <div class="destination-brief-info">
-            <p class="destination-intro"></p>
-            <p class="destination-name"></p>
-            <p class="destination-definition"></p><a class="read-more"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grey-cover" id="grey-cover4">
-      <div class="page-number-line-container">
-        <p class="page-number">0004</p>
-        <div class="vertical-line"> </div>
-      </div>
-      <div class="dest-shot-and-info-container">
-        <div class="destination-shots-container" id="dest-shot-4">
-          <div class="destination-shot shot1"></div>
-          <div class="destination-shot shot2"></div>
-          <div class="destination-shot shot3"></div>
-          <div class="destination-shot shot4"></div>
-        </div>
-        <div class="destination-brief-info">
-          <p class="destination-intro"></p>
-          <p class="destination-name"></p>
-          <p class="destination-definition"></p><a class="read-more"></a>
-        </div>
-      </div>
-    </div>
-    <div class="grey-cover" id="grey-cover5">
-      <div class="page-number-line-container">
-        <p class="page-number">0005</p>
-        <div class="vertical-line"> </div>
-      </div>
-      <div class="dest-shot-and-info-container">
-        <div class="destination-shots-container" id="dest-shot-5">
-          <div class="destination-shot shot1"></div>
-          <div class="destination-shot shot2"></div>
-          <div class="destination-shot shot3"></div>
-          <div class="destination-shot shot4"></div>
-        </div>
-        <div class="destination-brief-info">
-          <p class="destination-intro"></p>
-          <p class="destination-name"></p>
-          <p class="destination-definition"></p><a class="read-more"></a>
-        </div>
-      </div>
-    </div>
-    <div class="grey-cover" id="grey-cover6">
-      <div class="page-number-line-container">
-        <p class="page-number">0006</p>
-        <div class="vertical-line"> </div>
-      </div>
-      <div class="dest-shot-and-info-container">
-        <div class="destination-shots-container" id="dest-shot-6">
-          <div class="destination-shot shot1"></div>
-          <div class="destination-shot shot2"></div>
-          <div class="destination-shot shot3"></div>
-          <div class="destination-shot shot4"></div>
-        </div>
-        <div class="destination-brief-info">
-          <p class="destination-intro"></p>
-          <p class="destination-name"></p>
-          <p class="destination-definition"></p><a class="read-more"></a>
-        </div>
-      </div>
-    </div>
-    <div class="background-img" id="container7-background">
-      <div class="grey-cover" id="grey-cover7">
-        <div class="page-number-line-container">
-          <p class="page-number">0007</p>
-          <div class="vertical-line"></div>
-        </div>
-        <div class="dest-shot-and-info-container">
-          <div class="destination-shots-container" id="dest-shot-7">
-          </div>
-          <div class="destination-brief-info">
-            <p class="destination-intro"></p>
-            <p class="destination-name"></p>
-            <p class="destination-definition"></p><a class="read-more"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>

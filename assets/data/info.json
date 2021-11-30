@@ -1,13 +1,32 @@
 {
-   "destinationData":[
+   "destinationData": [{
+         "id": 1,
+         "intro": "Peak Human Ingenuity",
+         "name": "International Space Station",
+         "distFromEarth": "408 km",
+         "description": "The 109 meters long spacecraft weighing  420 thousand kilograms can house up to a 7 member crew at a time. The view alone is enough to make a grown man cry. The tour is complemented with spacewalks to complete the space experience"
+      },
       {
-         "destination1":{
-            "destinationName":"ISS",
-            "distFromEarth": 30
-            ""
-
-         }
-      
+         "id": 2,
+         "intro": "One small step for man. One giant leap for mankind",
+         "name": "Moon",
+         "distFromEarth": "384,400 km",
+         "description": "Since Moon travel become relatively cheap, it has been the go to destination among humanity. The Moon base which has a city of its own is the best place to experience out of this world attractions. We also visited the dark side of the Moon which isn't a common go to place for tourists."
+      },
+      {
+         "id": 3,
+         "intro": "The Red Planet",
+         "name": "Mars",
+         "distFromEarth": "374.24 Million km",
+         "description": "Although Human outposts in Mars are designed to accommodate for scientific endeavors, it is a great place for curious folks and whose inquiry for knowledge and sciences are unrelenting. Travelling-time alone can make someone homesick due to the distance but the experience is well worth the time and hey, they have great ice creams too. "
+      },
+      {
+         "id": 4,
+         "intro": "Earth V2 soon to be?",
+         "name": "Titan",
+         "distFromEarth": "Far Far Away",
+         "description": "The 'terraforming' or the process of modifying a space object to have Earth-like environment has been happening for almost a 100 years now on this particular moon of Saturn. A select few individuals including me are fortunate enough to conduct a study on the vegetation growth on the planet in hopes of creating successful species to convert present chemicals to Oxygen without relying to much on Photosynthesis."
       }
+
    ]
 }
